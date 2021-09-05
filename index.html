@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+	<html lang="es">
+		<head>
+			<meta charset="utf-8">
+			<meta name=" viewport"
+			content="width=devices-width, initial-scale= 1.0"/>
+			<title> Restaurant Cart </title>
+			<link rel="stylesheet" href="./fontawesome-free-5.15.3-web/css/all.min.css"/>
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+			<link rel="stylesheet" href="styles.css"/>
+		</head>
+		<body>
+			<header>
+				<div id="cart-info" class="nav-info">
+            		<span class="cart-info__icon">
+            			<i class="fas fa-cart-plus"></i>
+            		</span>
+            		<div class="cart-items">0</div>
+           	 		
+          		</div>
+          	</header>
+			<section class="menu">
+				<div class="title">
+					<h2> Nuestro menú</h2>
+					<div class="underline"></div>
+				</div>
+				<div class="btn-container">
+					<button class="filter-btn"  type="button" data-id="all" >Todo </button>
+					<button class="filter-btn"  type="button" data-id="breakfast">Desayunos </button>
+					<button class="filter-btn"  type="button" data-id="lunch"> Comidas </button>
+					<button class="filter-btn"  type="button" data-id="dinner"> Cenas </button>
+					<button class="filter-btn"  type="button" data-id="dessert"> Postres </button> 
+				</div>
+				<div class="section-center">
+					<article class="menu-item">
+						<img src="./images/item-1.jpeg" class="photo" alt="foto Pancake"/>
+						<div class="item-info">
+							<header>
+								<h4> Pancake con chocolate y fresa</h4>
+								<h4 class="price"> 7.5€ </h4>
+							</header>
+							<p class="item-description"> Delicioso pancake apenas salido de la sartén. Elaborado con leche desnatada y harina integral, huevos, sal del himalaya y azúcar moreno. El chocolate negro líquido y el sirope de fresa adornan su envoltura.</p>
+							<button class="store-item-icon" data-id="1">
+		           	 		<i class="fa fa-shopping-cart"></i> Añadir al carrito
+	              			</button>
+						</div>	
+					</article>
+				</div>
+				<div class="cart-overlay">
+
+      				<div class="cart">
+        				<span class="close-cart"><i class="fa fa-window-close"></i></span>
+        				<h2>Tu carrito</h2>
+        				<div class="cart-content">
+				          	<!-- cart item -->
+				          	
+				         	<!-- cart item -->
+
+				         	<!-- cart item -->
+				          	<!-- <div class="cart-item"> -->
+					            
+				          	<!-- </div>  -->
+				         	<!-- cart item -->
+				        </div>
+				        <div class="cart-footer">
+				          <h3>Total : <span class="cart-total">0 </span>€</h3>
+				          <button class="clear-cart btn">Vaciar carrito</button>
+				        </div>
+      				</div>
+   				</div>	
+
+			<script src="script.js"></script>
+		</body>
+	</html>
